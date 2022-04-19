@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+</head>
+<div>
+    <div class="hero">
+        <div id="calendar"></div>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#calendar').evoCalendar({
+
+            
+            calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Braille Day", // Event name (required)
+        date: "January/4/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Guru Govind Singh Jayanti", // Event name (required)
+        date: "January/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "National Youth Day", // Event name (required)
+        date: "January/12/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Lohri", // Event name (required)
+        date: "January/13/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Makar Sankranti", // Event name (required)
+        date: "January/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Pongal", // Event name (required)
+        date: "January/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Indian Army Day", // Event name (required)
+        date: "January/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Foundation Day", // Event name (required)
+        date: "January/21/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Netaji Subhas Chandra Bose Jayanti", // Event name (required)
+        date: "January/23/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Uttar Pradesh Day", // Event name (required)
+        date: "January/24/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "National Girl Child Day", // Event name (required)
+        date: "January/24/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "National Tourism Day", // Event name (required)
+        date: "January/25/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Republic Day", // Event name (required)
+        date: "January/26/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Martyr's Day", // Event name (required)
+        date: "January/30/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Cancer Day", // Event name (required)
+        date: "February/4/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Vasant Panchami", // Event name (required)
+        date: "February/5/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Radio Day", // Event name (required)
+        date: "February/13/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Valentine's Day", // Event name (required)
+        date: "February/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Hazarat Ali's Birthday", // Event name (required)
+        date: "February/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Taj Mahotsav", // Event name (required)
+        date: "February/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event1', // Event's ID (required)
+        name: "International Childhood Cancer Day", // Event name (required)
+        date: "February/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Guru Ravidas Jayanti", // Event name (required)
+        date: "February/16/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Shivaji Jayanti", // Event name (required)
+        date: "February/19/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Statehood Day", // Event name (required)
+        date: "February/20/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Day of Social Justice", // Event name (required)
+        date: "February/20/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "International Mother Language Day", // Event name (required)
+        date: "February/21/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Central Excise Day", // Event name (required)
+        date: "February/24/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Swami Dayanand Saraswati Jayanti", // Event name (required)
+        date: "February/26/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "National Science Day", // Event name (required)
+        date: "February/28/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Maha Shivaratri", // Event name (required)
+        date: "March/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Zero Discrimination Day", // Event name (required)
+        date: "March/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Wildlife Day", // Event name (required)
+        date: "March/3/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "International Women's Day", // Event name (required)
+        date: "March/8/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Election Results", // Event name (required)
+        date: "March/10/2022", // Event date (required)
+        type: "event", // Event type (required)
+        color: "#63d867" // Event custom color (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Consumers Right Day", // Event name (required)
+        date: "March/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Holika Dahan", // Event name (required)
+        date: "March/17/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Holi", // Event name (required)
+        date: "March/18/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "International Day of Happiness", // Event name (required)
+        date: "March/20/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Foresty Day", // Event name (required)
+        date: "March/21/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Water Day", // Event name (required)
+        date: "March/22/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Sarvodaya Day", // Event name (required)
+        date: "March/23/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Meteorological Day", // Event name (required)
+        date: "March/23/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Theater Day", // Event name (required)
+        date: "March/27/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Rajasthan Diwas", // Event name (required)
+        date: "March/30/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Odisha Day", // Event name (required)
+        date: "April/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Gudi Padwa", // Event name (required)
+        date: "April/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Health Day", // Event name (required)
+        date: "April/7/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Ram Navami", // Event name (required)
+        date: "April/10/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Ambedkar Jayanti", // Event name (required)
+        date: "April/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Mahavir Jayanti", // Event name (required)
+        date: "April/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Vaisakhi", // Event name (required)
+        date: "April/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Tamil New Year", // Event name (required)
+        date: "April/14/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Good Friday", // Event name (required)
+        date: "April/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Hanuman Jayanti", // Event name (required)
+        date: "April/16/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Easter Day", // Event name (required)
+        date: "April/17/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Heritage Day", // Event name (required)
+        date: "April/18/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "World Creativity & Innovation Day", // Event name (required)
+        date: "April/21/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Earth Day", // Event name (required)
+        date: "April/22/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "English Language Day", // Event name (required)
+        date: "April/23/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Jamat Ul-Vida", // Event name (required)
+        date: "April/29/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "International Dance Day", // Event name (required)
+        date: "April/29/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Ramzan Id", // Event name (required)
+        date: "May/3/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Eid-ul-Fitar", // Event name (required)
+        date: "May/3/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Akshaya Tritiya", // Event name (required)
+        date: "May/3/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Mother's Day", // Event name (required)
+        date: "May/8/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Guru Ravindranath Jayanti", // Event name (required)
+        date: "May/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Buddha Purnima", // Event name (required)
+        date: "May/16/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Telangana Formation Day", // Event name (required)
+        date: "June/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Father's Day", // Event name (required)
+        date: "June/19/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Rath Yatra", // Event name (required)
+        date: "July/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Bakr Id", // Event name (required)
+        date: "July/10/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Muharram/Ashura", // Event name (required)
+        date: "August/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Raksha Bandhan", // Event name (required)
+        date: "August/11/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Independence Day", // Event name (required)
+        date: "August/15/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Parsi New Year", // Event name (required)
+        date: "August/16/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Janmashtami", // Event name (required)
+        date: "August/19/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Ganesh Chaturthi", // Event name (required)
+        date: "August/31/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Onam", // Event name (required)
+        date: "September/8/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Navaratri", // Event name (required)
+        date: "September/26/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "First Day of Durga Puja", // Event name (required)
+        date: "October/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Maha Saptami", // Event name (required)
+        date: "October/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Gandhi Jaynati", // Event name (required)
+        date: "October/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Maha Ashtami", // Event name (required)
+        date: "October/3/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Maha Navami", // Event name (required)
+        date: "October/4/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Dussehra", // Event name (required)
+        date: "October/5/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Maharishi Valmiki Jayanti", // Event name (required)
+        date: "October/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Id-e-Milad", // Event name (required)
+        date: "October/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Karva Chauth", // Event name (required)
+        date: "October/13/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Dhanteras", // Event name (required)
+        date: "October/23/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Deepawali", // Event name (required)
+        date: "October/24/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Govardhan Puja", // Event name (required)
+        date: "October/25/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Bhai Dooj", // Event name (required)
+        date: "October/26/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Chhat Puja", // Event name (required)
+        date: "October/30/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Guru Nanak Jayanti", // Event name (required)
+        date: "November/8/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Christmas Eve", // Event name (required)
+        date: "December/24/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Christmas", // Event name (required)
+        date: "December/25/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Guru Govind Singh Jayanti", // Event name (required)
+        date: "December/29/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+    //   {
+    //     name: "Vacation Leave",
+    //     badge: "02/13 - 02/15", // Event badge (optional)
+    //     date: ["February/13/2022", "February/15/2022"], // Date range
+    //     description: "Vacation leave for 3 days.", // Event description (optional)
+    //     type: "event",
+    //     color: "#63d867" // Event custom color (optional)
+    //   }
+    ]
+        })
+    })
+    </script>
+</div>
+</html>

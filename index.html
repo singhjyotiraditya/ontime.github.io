@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>OnTime</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">OnTime</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="main calendar/calendar.html" class="nav__link">Calendar</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Holidays</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">OnTime</h1>
+                        <h2 class="home__subtitle">Dates never looked <br> so good.</h2>
+                        <a href="main calendar/calendar.html" class="button">Detailed Calendar</a>
+                    </div>
+            <!-- HOME CALENDAR -->
+                    <div class="light">
+                        <div class="calendar">
+                            <div class="calendar-header">
+                                <span class="month-picker" id="month-picker">February</span>
+                                <div class="year-picker">
+                                    <span class="year-change" id="prev-year">
+                                        <pre><</pre>
+                                    </span>
+                                    <span id="year">2021</span>
+                                    <span class="year-change" id="next-year">
+                                        <pre>></pre>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="calendar-body">
+                                <div class="calendar-week-day">
+                                    <div>Sun</div>
+                                    <div>Mon</div>
+                                    <div>Tue</div>
+                                    <div>Wed</div>
+                                    <div>Thu</div>
+                                    <div>Fri</div>
+                                    <div>Sat</div>
+                                </div>
+                                <div class="calendar-days"></div>
+                            </div>
+                            <div class="calendar-footer">
+                            </div>
+                            <div class="month-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">Dates never looked <br> so good</h2>
+                        <p class="about__description">With OnTime Calendar, you can quickly schedule meetings and events and get reminders about upcoming activities, so you always know what's next.</p>
+                    </div>
+
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Events/Holidays</h2>
+
+                <div class="event-container">
+                    <h3 class="year">Jan 2022</h3>
+              
+                    <div class="event">
+                      <div class="event-left">
+                        <div class="event-date">
+                          <div class="date">01</div>
+                          <div class="month">Sat</div>
+                        </div>
+                      </div>
+              
+                      <div class="event-right">
+                        <h3 class="event-title">New Year</h3>
+              
+                        <div class="event-description">
+                          New Years Day for the year 2022 is celebrated/ observed on Saturday, January 1st. New Year's marks the start of a new year (January 1st) according to the Gregorian calendar.
+                        </div>
+              
+                        <div class="event-timing">
+                          <img src="assets/img/time.png" alt="" /> All Day
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="event">
+                      <div class="event-left">
+                        <div class="event-date">
+                          <div class="date">04</div>
+                          <div class="month">Tue</div>
+                        </div>
+                      </div>
+              
+                      <div class="event-right">
+                        <h3 class="event-title">World Braille Day</h3>
+              
+                        <div class="event-description">
+                            The day aims to recognize the right of access to braille by blind people and raise awareness of the importance of braille as a means of communication in the full realization of the human rights for blind and partially sighted people.
+                        </div>
+              
+                        <div class="event-timing">
+                          <img src="assets/img/time.png" alt="" /> All Day
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">09</div>
+                            <div class="month">Sun</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Guru Govind Singh Jayanti</h3>
+                
+                          <div class="event-description">
+                            The birth anniversary of the 10th Sikh Guru Gobind Singh is celebrated with great fervor by the Sikh communities across the country. This day is also known as Prakash Parv. This year, the birth anniversary of Guru Gobind Singh will be celebrated on 9 January 2022 on Sunday.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">12</div>
+                            <div class="month">Wed</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">National Youth Day</h3>
+                
+                          <div class="event-description">
+                            National Youth Day (NYD) is held every year on 12th January to observe the birth anniversary of Swami Vivekananda.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">13</div>
+                            <div class="month">Thu</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Lohri</h3>
+                
+                          <div class="event-description">
+                            Lohri is a popular winter Punjabi folk festival celebrated primarily in Northern India.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">14</div>
+                            <div class="month">Fri</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Makar Sankranti</h3>
+                
+                          <div class="event-description">
+                            To celebrate the deity Surya (Sun). To mark the first day of the sun's transit into Makara rashi.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">14</div>
+                            <div class="month">Fri</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Pongal</h3>
+                
+                          <div class="event-description">
+                            Pongal, is also referred to as Thai Pongal, is a multi-day Hindu harvest festival celebrated by Tamils in India and Sri Lanka.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">15</div>
+                            <div class="month">Sat</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Indian Army Day</h3>
+                
+                          <div class="event-description">
+                            Army Day is celebrated on 15 January every year in India, in recognition of Field Marshal Kodandera M. Cariappa's taking over as the first Commander-in-Chief of the Indian Army from General Francis Roy Bucher, the last British Commander-in-Chief of India, on 15 January 1949.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">21</div>
+                            <div class="month">Fri</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Foundation Day</h3>
+                
+                          <div class="event-description">
+                            Tripura, Manipur, and Meghalaya are celebrating their Statehood Day on 21 January.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">23</div>
+                            <div class="month">Sun</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Netaji Subhas Chandra Bose Jayanti</h3>
+                
+                          <div class="event-description">
+                            To commemorate his contribution to India's struggle for independence, every year on 23rd January, Subhas Chandra Bose's birthday is celebrated across various parts of the country.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">24</div>
+                            <div class="month">Mon</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Uttar Pradesh Day</h3>
+                
+                          <div class="event-description">
+                            Uttar Pradesh Day also referred to as UP Diwas or Uttar Pradesh Diwas in Hindi, is celebrated as foundation day of Indian state, Uttar Pradesh.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">24</div>
+                            <div class="month">Mon</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">National Girl Child Day</h3>
+                
+                          <div class="event-description">
+                            It was initiated in 2008 by the Ministry of Women and Child Development and the government of India, to spread public awareness about inequities that girls face in Indian society.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">25</div>
+                            <div class="month">Tue</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">National Tourism Day</h3>
+                
+                          <div class="event-description">
+                            To celebrate the diversity of our country, NATIONAL TOURISM DAY is celebrated on 25th January every year.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">26</div>
+                            <div class="month">Wed</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Republic Day</h3>
+                
+                          <div class="event-description">
+                            Republic Day is one of three Indian national holidays and it commemorates the enactment of the constitution of India, which occurred on January 26, 1950.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">30</div>
+                            <div class="month">Sun</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Martyr's Day</h3>
+                
+                          <div class="event-description">
+                            Martyrs' Day or Shaheed Diwas is celebrated in India to remember freedom fighters who laid down their lives to help make India independent.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                <div class="event-container">
+                    <h3 class="year">Feb 2022</h3>
+
+                    <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">04</div>
+                            <div class="month">Fri</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">World Cancer Day</h3>
+                
+                          <div class="event-description">
+                            World Cancer Day is an international day marked on 4 February to raise awareness of cancer and to encourage its prevention, detection, and treatment.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>  
+                      
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">05</div>
+                            <div class="month">Sat</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">Vasant Panchami</h3>
+                
+                          <div class="event-description">
+                            Vasant Panchami, also called Saraswati Puja in honor of the Hindu goddess Saraswati, is a festival that marks the preparation for the arrival of spring.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="event">
+                        <div class="event-left">
+                          <div class="event-date">
+                            <div class="date">13</div>
+                            <div class="month">Sun</div>
+                          </div>
+                        </div>
+                
+                        <div class="event-right">
+                          <h3 class="event-title">World Radio Day</h3>
+                
+                          <div class="event-description">
+                            World Radio Day celebrates radio as the mass media reaching the widest audience in the world.
+                          </div>
+                
+                          <div class="event-timing">
+                            <img src="assets/img/time.png" alt="" /> All Day
+                          </div>
+                        </div>
+                      </div>
+
+
+            </section>
+
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div>
+                    <div class="form-container log-in-container">
+                        <form action="#">
+                            <h2 class="section-title">Login</h2>
+                            <div class="social-container">
+                                <a href="#" class="social"><i class="fa fa-facebook fa-2x"></i></a>
+                                <a href="#" class="social"><i class="fab fa fa-twitter fa-2x"></i></a>
+                            </div>
+                            <span>or use your account</span>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Password" />
+                            <a1>Forgot your password?</a1>
+                            <button>Log In</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">OnTime</a>
+                    <span class="footer__description">Calendars</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Printed Calendars</a></li>
+                        <li><a href="#" class="footer__link">Submit Your Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Lima - Peru</li>
+                        <li>Jr Union #999</li>
+                        <li>999 - 888 - 777</li>
+                        <li>ontime@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 OnTime. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
